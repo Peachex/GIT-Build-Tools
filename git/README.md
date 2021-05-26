@@ -1,1 +1,1 @@
-Git task BUG!
+Git task
