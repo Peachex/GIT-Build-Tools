@@ -17,13 +17,13 @@ version = '1.3.5'
 
 publishing {
     publications {
-        myLibrary(MavenPublication) {
+       maven(MavenPublication) {
             from components.java
         }
     }
     repositories {
         maven {
-            name = 'myRepo'
+            name = 'custom-repo'
             url = "file://D:/custom_repo"
         }
     }
